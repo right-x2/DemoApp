@@ -19,7 +19,7 @@ public class MyServlet extends HttpServlet
 		PrintWriter out = response.getWriter();
 		out.print("HI ");
 		
-		
+		int k = 9/0;
 		ServletConfig cg = getServletConfig();
 		String str = cg.getInitParameter("name");
 		//ServletContext ctx = request.getServletContext();
